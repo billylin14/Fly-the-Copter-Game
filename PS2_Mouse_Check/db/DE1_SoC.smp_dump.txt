@@ -1,0 +1,7 @@
+
+State Machine - |DE1_SoC|ps2:U1|cur_state
+Name cur_state~5 cur_state~4 
+cur_state.listen 0 0 
+cur_state.pullclk 0 1 
+cur_state.pulldat 1 0 
+cur_state.trans 1 1 

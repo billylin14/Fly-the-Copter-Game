@@ -1,0 +1,18 @@
+module scorekeeping #(parameter RATE = 15) (clk, reset, score);
+
+	input logic clk, reset;
+	output logic [31:0] score;
+	
+	//Generate clk off of CLOCK_50, whichclock picks rate
+	logic [31:0] clock;
+	clock_divider cdiv (.reset, .clock(clk), .divided_clocks(clock));
+	
+	
+	logic slow_clk;
+	assign slow_clk = clock[RATE]; //for board
+	
+	always_ff @(posedge clk) begin
+		if (reset) score <= 0;
+		else if (slow_clk) score <= score + 1;
+	end
+endmodule

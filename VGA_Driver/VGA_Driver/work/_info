@@ -1,0 +1,384 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Desktop/UW/courses/20 WI/EE 371/Lab6/VGA_Driver/VGA_Driver
+vantiHold
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1583434927
+!i10b 1
+!s100 Cl2EC_<K5N[G>P3kZ5PQ_1
+IL]YSO_U]P@XkZ;foBe61K2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 antiHold_sv_unit
+S1
+R0
+Z5 w1583434557
+Z6 8./antiHold.sv
+Z7 F./antiHold.sv
+L0 9
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1583434927.000000
+Z10 !s107 ./antiHold.sv|
+Z11 !s90 -reportprogress|300|./antiHold.sv|
+!i113 1
+Z12 tCvgOpt 0
+nanti@hold
+vantiHold_testbench
+R1
+R2
+!i10b 1
+!s100 DeCI]7]HPNgDH<G3QKgd?1
+IK84Bc@Dh6J5Ec]g@1JSU_2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 49
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+nanti@hold_testbench
+vbound_gen
+R1
+Z13 !s110 1583799272
+!i10b 1
+!s100 ==PJbKe<>l=AniL7Rj84I2
+IK[zGZI3iG3LQSVH`WL[1f1
+R3
+Z14 !s105 bound_gen_sv_unit
+S1
+R0
+Z15 w1583799268
+Z16 8./bound_gen.sv
+Z17 F./bound_gen.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z18 !s108 1583799272.000000
+Z19 !s107 ./bound_gen.sv|
+Z20 !s90 -reportprogress|300|./bound_gen.sv|
+!i113 1
+R12
+vbound_gen_testbench
+R1
+R13
+!i10b 1
+!s100 E5HJ3@YO7W4o6JadATT;M0
+INmGiEi^i1ACWaX9=K356H3
+R3
+R14
+S1
+R0
+R15
+R16
+R17
+L0 63
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R12
+vclock_divider
+R1
+R2
+!i10b 1
+!s100 Ae^P3B_dSW85<i0Z[6l2b1
+IEJ[ADzIcEcZfJ6g2c>F>O0
+R3
+Z21 !s105 clock_divider_sv_unit
+S1
+R0
+Z22 w1583370714
+Z23 8./clock_divider.sv
+Z24 F./clock_divider.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 ./clock_divider.sv|
+Z26 !s90 -reportprogress|300|./clock_divider.sv|
+!i113 1
+R12
+vclock_divider_testbench
+R1
+R2
+!i10b 1
+!s100 e;9[_[J[]5E6R7]K[5kh42
+IcBdNiBT^hP=@@S@oFUI6i3
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 22
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+vdec_display_testbench
+R1
+Z27 !s110 1583461260
+!i10b 1
+!s100 AN9jbI2S?i=8C4eD5G`NZ3
+IQSShCJFPSEfcQeP2=iD>o3
+R3
+Z28 !s105 decimal_display_sv_unit
+S1
+R0
+Z29 w1583461034
+Z30 8./decimal_display.sv
+Z31 F./decimal_display.sv
+L0 12
+R8
+r1
+!s85 0
+31
+Z32 !s108 1583461260.000000
+Z33 !s107 ./decimal_display.sv|
+Z34 !s90 -reportprogress|300|./decimal_display.sv|
+!i113 1
+R12
+vdec_in_hex_testbench
+R1
+Z35 !s110 1583461412
+!i10b 1
+!s100 @T8>XQQ1QgA9[Gjg>M4OI0
+I8C@Cz3K7f17^4ZRhzcYII0
+R3
+Z36 !s105 decimal_in_hex_sv_unit
+S1
+R0
+Z37 w1583461028
+Z38 8./decimal_in_hex.sv
+Z39 F./decimal_in_hex.sv
+L0 24
+R8
+r1
+!s85 0
+31
+Z40 !s108 1583461412.000000
+Z41 !s107 ./decimal_in_hex.sv|
+Z42 !s90 -reportprogress|300|./decimal_in_hex.sv|
+!i113 1
+R12
+vdecimal_display
+R1
+R27
+!i10b 1
+!s100 Kj:aXRbZO5K?]Tj<<MLb`0
+I864N^?oQzJ^MO4QN0G^T;3
+R3
+R28
+S1
+R0
+R29
+R30
+R31
+L0 1
+R8
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R12
+vdecimal_in_hex
+R1
+R35
+!i10b 1
+!s100 ^f^cbZ8Zc5Z5CKS0]=5V10
+IBR>IkB`[6`dKP7gbTafF[2
+R3
+R36
+S1
+R0
+R37
+R38
+R39
+L0 1
+R8
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 1
+R12
+vLFSR_10bit
+R1
+R13
+!i10b 1
+!s100 GS?NN^7XkGO4C=7`K`U5k3
+IHN3He4VH5TBOQ=Y:C8]mz0
+R3
+Z43 !s105 LFSR_3bit_sv_unit
+S1
+R0
+Z44 w1583285610
+Z45 8./LFSR_3bit.sv
+Z46 F./LFSR_3bit.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R18
+Z47 !s107 ./LFSR_3bit.sv|
+Z48 !s90 -reportprogress|300|./LFSR_3bit.sv|
+!i113 1
+R12
+n@l@f@s@r_10bit
+vLFSR_10bit_testbench
+R1
+R13
+!i10b 1
+!s100 [eiZzDHJR:a>RYN3Yko`G0
+I56OOCa^R3blZkVX<IXo812
+R3
+R43
+S1
+R0
+R44
+R45
+R46
+L0 33
+R8
+r1
+!s85 0
+31
+R18
+R47
+R48
+!i113 1
+R12
+n@l@f@s@r_10bit_testbench
+vLFSR_3bit
+R1
+Z49 !s110 1583282731
+!i10b 1
+!s100 bR:G@T9_IGN=2mT0liV^51
+IW_NICIcW1fN>Z:`mBWGUl3
+R3
+R43
+S1
+R0
+Z50 w1583277450
+R45
+R46
+L0 9
+R8
+r1
+!s85 0
+31
+Z51 !s108 1583282731.000000
+R47
+R48
+!i113 1
+R12
+n@l@f@s@r_3bit
+vLFSR_3bit_testbench
+R1
+R49
+!i10b 1
+!s100 89fiEN`b69kNn5JcCaJW21
+I4;Y]4gXcAPz31dCD[aCDd0
+R3
+R43
+S1
+R0
+R50
+R45
+R46
+L0 26
+R8
+r1
+!s85 0
+31
+R51
+R47
+R48
+!i113 1
+R12
+n@l@f@s@r_3bit_testbench
+vscorekeeping
+R1
+R2
+!i10b 1
+!s100 OIoa8@jn9]X9dT?COF>7j1
+I`Ia[S2oNOa:m<FV8n3E3H3
+R3
+Z52 !s105 scorekeeping_sv_unit
+S1
+R0
+Z53 w1583434885
+Z54 8./scorekeeping.sv
+Z55 F./scorekeeping.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z56 !s107 ./scorekeeping.sv|
+Z57 !s90 -reportprogress|300|./scorekeeping.sv|
+!i113 1
+R12
+vscorekeeping_testbench
+R1
+R2
+!i10b 1
+!s100 8Vz>lbAha?;l[;AL0HR5I3
+I=KMJAzD@XHafFW_ff<LXf1
+R3
+R52
+S1
+R0
+R53
+R54
+R55
+L0 27
+R8
+r1
+!s85 0
+31
+R9
+R56
+R57
+!i113 1
+R12

@@ -1,0 +1,5 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10268): Verilog HDL information at bound_gen.sv(38): always construct contains both blocking and non-blocking assignments File: C:/Users/USER/Desktop/UW/courses/20 WI/EE 371/Lab6/VGA_Driver/VGA_Driver/bound_gen.sv Line: 38
+Warning (10268): Verilog HDL information at ps2.v(139): always construct contains both blocking and non-blocking assignments File: C:/Users/USER/Desktop/UW/courses/20 WI/EE 371/Lab6/VGA_Driver/VGA_Driver/ps2.v Line: 139
+Warning (10273): Verilog HDL warning at decimal_in_hex.sv(19): extended using "x" or "z" File: C:/Users/USER/Desktop/UW/courses/20 WI/EE 371/Lab6/VGA_Driver/VGA_Driver/decimal_in_hex.sv Line: 19
+Warning (10034): Output port "LEDR[7..3]" at DE1_SoC.sv(4) has no driver File: C:/Users/USER/Desktop/UW/courses/20 WI/EE 371/Lab6/VGA_Driver/VGA_Driver/DE1_SoC.sv Line: 4

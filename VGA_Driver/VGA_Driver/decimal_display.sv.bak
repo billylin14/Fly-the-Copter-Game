@@ -1,0 +1,11 @@
+module decimal_display (reset, score, HEX5, HEX4, HEX3);
+
+	input logic reset;
+	input logic [31:0] score;
+	output logic [6:0] HEX5, HEX4, HEX3;
+	
+	decimal_in_hex houndreds (.reset, .num(score/100), .HEX(HEX5));
+	decimal_in_hex tens (.reset, .num(score/10) .HEX(HEX4));
+	decimal_in_hex ones (.reset, .num(score%10), .HEX(HEX3));
+	
+endmodule

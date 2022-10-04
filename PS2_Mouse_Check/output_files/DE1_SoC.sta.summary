@@ -1,0 +1,181 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'ps2:U1|clk_div[8]'
+Slack : -4.025
+TNS   : -152.013
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.804
+TNS   : -59.094
+
+Type  : Slow 1100mV 85C Model Setup 'ps2:U1|ps2_clk_in'
+Slack : -2.201
+TNS   : -94.594
+
+Type  : Slow 1100mV 85C Model Hold 'ps2:U1|clk_div[8]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ps2:U1|ps2_clk_in'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'ps2:U1|ps2_clk_in'
+Slack : -1.724
+TNS   : -12.050
+
+Type  : Slow 1100mV 85C Model Removal 'ps2:U1|ps2_clk_in'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.652
+TNS   : -20.388
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ps2:U1|ps2_clk_in'
+Slack : -0.394
+TNS   : -29.287
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ps2:U1|clk_div[8]'
+Slack : -0.394
+TNS   : -28.406
+
+Type  : Slow 1100mV 0C Model Setup 'ps2:U1|clk_div[8]'
+Slack : -4.100
+TNS   : -148.531
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.936
+TNS   : -55.194
+
+Type  : Slow 1100mV 0C Model Setup 'ps2:U1|ps2_clk_in'
+Slack : -2.207
+TNS   : -90.775
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ps2:U1|clk_div[8]'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ps2:U1|ps2_clk_in'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'ps2:U1|ps2_clk_in'
+Slack : -1.683
+TNS   : -11.763
+
+Type  : Slow 1100mV 0C Model Removal 'ps2:U1|ps2_clk_in'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.660
+TNS   : -18.716
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ps2:U1|clk_div[8]'
+Slack : -0.394
+TNS   : -27.681
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ps2:U1|ps2_clk_in'
+Slack : -0.394
+TNS   : -27.483
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.803
+TNS   : -32.433
+
+Type  : Fast 1100mV 85C Model Setup 'ps2:U1|clk_div[8]'
+Slack : -2.155
+TNS   : -77.323
+
+Type  : Fast 1100mV 85C Model Setup 'ps2:U1|ps2_clk_in'
+Slack : -1.218
+TNS   : -46.980
+
+Type  : Fast 1100mV 85C Model Hold 'ps2:U1|clk_div[8]'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ps2:U1|ps2_clk_in'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'ps2:U1|ps2_clk_in'
+Slack : -0.650
+TNS   : -4.541
+
+Type  : Fast 1100mV 85C Model Removal 'ps2:U1|ps2_clk_in'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.708
+TNS   : -14.339
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ps2:U1|clk_div[8]'
+Slack : -0.014
+TNS   : -0.122
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ps2:U1|ps2_clk_in'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.383
+TNS   : -25.344
+
+Type  : Fast 1100mV 0C Model Setup 'ps2:U1|clk_div[8]'
+Slack : -1.917
+TNS   : -67.863
+
+Type  : Fast 1100mV 0C Model Setup 'ps2:U1|ps2_clk_in'
+Slack : -1.110
+TNS   : -42.301
+
+Type  : Fast 1100mV 0C Model Hold 'ps2:U1|clk_div[8]'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ps2:U1|ps2_clk_in'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'ps2:U1|ps2_clk_in'
+Slack : -0.562
+TNS   : -3.925
+
+Type  : Fast 1100mV 0C Model Removal 'ps2:U1|ps2_clk_in'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.736
+TNS   : -17.002
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ps2:U1|clk_div[8]'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ps2:U1|ps2_clk_in'
+Slack : 0.079
+TNS   : 0.000
+
+------------------------------------------------------------
